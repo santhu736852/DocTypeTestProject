@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">testuser</value>
-    <value name="lastModifiedDate">1723462029265</value>
+    <value name="lastModifiedDate">1723462152998</value>
     <value name="displayName">Test4</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -84,6 +84,12 @@
           <value name="serviceName">pub.math:addInts</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
