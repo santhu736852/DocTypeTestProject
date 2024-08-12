@@ -8,10 +8,14 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.doctypetest.integrations:Test3
+- serviceName: project.doctypetest.integrations:Test1
   packages:
   - name: DocTypeTestProject
     version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1957
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
